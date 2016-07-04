@@ -21,6 +21,7 @@ import { HeroService }         from './hero.service';
     HeroService,
   ]
 })
+//noinspection TypeScriptValidateTypes
 @RouteConfig([
   { path: '/dashboard',  name: 'Dashboard',  component: DashboardComponent, useAsDefault: true },
   { path: '/detail/:id', name: 'HeroDetail', component: HeroDetailComponent },
